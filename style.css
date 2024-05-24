@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+.btn{
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    float: inline-start;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 24px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    
+}
+.c,
+.mod,
+.back,
+.div,
+.mul,
+.sub,
+.add{
+    background-color: rgb(56, 56, 56);
+}
+.equal{
+    background-color:rgb(234, 70, 41);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    row-gap: 10px;
+}
+.calculator{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    flex-direction: column;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 15px;
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+.back,
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    padding-right: 13px;
+}
+.div{
+    padding-right: 10px;
+}
+#num{
+    background-color: black;
+    color: white;
+    width: 260px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+h1{
+    color: white;
+    float: left;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.btn:hover{
+    background-color:rgb(11, 11, 11); ;
+}
+.c:hover,
+.mod:hover,
+.back:hover,
+.div:hover,
+.mul:hover,
+.sub:hover,
+.add:hover{
+    background-color: rgb(43, 43, 43);
+}
+.equal:hover{
+    background-color:rgb(175, 54, 32);
+}
