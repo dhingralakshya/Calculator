@@ -86,3 +86,6 @@ h1{
 .equal:hover{
     background-color:rgb(175, 54, 32);
 }
+.input{
+    height: 100px;
+}
